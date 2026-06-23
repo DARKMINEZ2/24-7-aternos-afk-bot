@@ -1,13 +1,13 @@
 {
-  "name": "AFK Bot",
+  "name": "WELCOME_TO_DEADLY_SMP",
   "bot-account": {
-    "username": "SoloCloudHosting",
+    "username": "WELCOME_TO_DEADLY_SMP",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "solocloud.host",
-    "port": 25565,
+    "ip": "Deadly_SMP_.aternos.me",
+    "port": 16474,
     "version": "1.20.1",
     "try-creative": false
   },
@@ -28,18 +28,17 @@
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": true,
+      "repeat": false,
       "repeat-delay": 120,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to SoloPlayz!",
-        "Want Cheap Premium MC Server? https://discord.gg/VRMUnDkf95"
+        "/register DARKOP DARKOP",
+        "/login DARKOP",
       ]
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 2,
+    "max-reconnect-delay": 5
   },
   "movement": {
     "enabled": true,
@@ -65,19 +64,19 @@
     "console-commands": true
   },
   "combat": {
-    "attack-mobs": true,
+    "attack-mobs": false,
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
     "enabled": false,
     "webhookUrl": "",
     "events": {
       "connect": true,
-      "disconnect": true,
+      "disconnect": false,
       "chat": false
     }
   },
